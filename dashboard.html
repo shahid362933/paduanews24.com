@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ড্যাশবোর্ড</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>নিউজ এড করুন</h2>
+  <form onsubmit="addNews(event)">
+    <input type="text" id="title" placeholder="শিরোনাম" required />
+    <textarea id="content" placeholder="সংবাদের বিস্তারিত" required></textarea>
+    <button type="submit">যোগ করুন</button>
+  </form>
+
+  <h2>বিজ্ঞাপন যোগ করুন</h2>
+  <form onsubmit="addAd(event)">
+    <input type="text" id="adText" placeholder="বিজ্ঞাপনের লেখা" required />
+    <button type="submit">বিজ্ঞাপন যোগ করুন</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

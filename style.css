@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+header, footer {
+  background: #003366;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+form {
+  margin: 20px 0;
+}
+input, textarea {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+}
+button {
+  background: #0066cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
